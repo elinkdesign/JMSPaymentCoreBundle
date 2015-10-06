@@ -269,6 +269,11 @@ class PaymentInstruction implements PaymentInstructionInterface
         }
     }
 
+    public function setCreatedAt(\DateTime $createdAt)
+    {
+        $this->createdAt = $createdAt;
+    }
+
     public function setApprovingAmount($amount)
     {
         $this->approvingAmount = $amount;

@@ -79,6 +79,7 @@ interface PaymentInstructionInterface
      * @return void
      */
 //    function setAccount($account);
+    function setCreatedAt(\DateTime $createdAt);
     function setApprovedAmount($amount);
     function setApprovingAmount($amount);
     function setCreditedAmount($amount);
